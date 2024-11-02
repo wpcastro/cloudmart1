@@ -15,7 +15,7 @@ spec:
       serviceAccountName: cloudmart-pod-execution-role1
       containers:
       - name: cloudmart-frontend-app
-        image: public.ecr.aws/u3d9r6f2/cloudmart-frontend:latest
+        image: CONTAINER_IMAGE
 ---
 
 apiVersion: v1
